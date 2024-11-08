@@ -2,7 +2,7 @@ import React from 'react'
 
 function hero() {
   return (
-    <div className="flex flex-col items-center justify-center space-y-6 bg-[linear-gradient(to_bottom,#fff,#5a6ab7,#0d1347_78%)] h-screen pb-20">
+    <div className="flex flex-col items-center justify-center space-y-6 px-5 bg-[linear-gradient(to_bottom,#fff,#5a6ab7,#0d1347_78%)] h-screen pb-20">
         <h1 className='text-4xl sm:text-5xl lg:text-6xl text-center text-white font-extralight'>
         Consertamos <br />
         iPhones, iPads, MacBooks e mais <br />
