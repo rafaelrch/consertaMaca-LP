@@ -5,6 +5,7 @@ import QuemSomos from './components/quemSomos';
 import Serviços from './components/Serviços';
 import Depoimentos from './components/Depoimentos';
 import BlurBackground from './components/blurBackground';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
     <QuemSomos/>
     <Serviços/>
     <Depoimentos/>
+    <Footer/>
    </>
   )
 }

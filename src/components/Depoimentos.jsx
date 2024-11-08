@@ -21,7 +21,7 @@ const Depoimentos = () => {
         <span className="flex justify-center bg-gradient-to-r from-purple-300 to-purple-500 border  border-[#b55fff] text-neutral-100 rounded-xl text-sm font-medium px-4 py-2 uppercase shadow-lg">
           Depoimentos
         </span>
-        <p className='text-center mt-5 font-light text-sm text-neutral-500'>
+        <p className='text-center mt-5 font-light text-sm text-neutral-600'>
         O que nossos clientes dizem
         </p>
 
@@ -29,13 +29,14 @@ const Depoimentos = () => {
             {TESTIMONIALS.map((testimonial, index) => (
                 <motion.div 
                     key={index}
-                    className='relative rounded-lg p-6 h-full backdrop-blur-3xl bg-stone-500/10 flex flex-col justify-center'
+                    className='relative rounded-lg p-6 h-full backdrop-blur-6xl bg-stone-500/10 flex flex-col justify-center  duration-300 '
                     custom={index}
                     initial="hidden"
                     whileInView="visible"
+                    whileHover={{ scale: 1.02 }}
                     variants={childVariants}
                 >
-                    <div className='flex items-center mb-4'>
+                    <div className='flex items-center mb-4 '>
                         <img 
                             src={testimonial.image} 
                             alt={testimonial.name} 
