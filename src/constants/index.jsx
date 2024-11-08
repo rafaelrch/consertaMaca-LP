@@ -1,16 +1,9 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
-
-import user1 from "../assets/profile-pictures/user1.jpg";
-import user2 from "../assets/profile-pictures/user2.jpg";
-import user3 from "../assets/profile-pictures/user3.jpg";
-import user4 from "../assets/profile-pictures/user4.jpg";
-import user5 from "../assets/profile-pictures/user5.jpg";
-import user6 from "../assets/profile-pictures/user6.jpg";
+import person1 from "../assets/person1.png";
+import person2 from "../assets/person2.png";
+import person3 from "../assets/person3.png";
+import person4 from "../assets/person4.png";
+import person5 from "../assets/person5.png";
+import person6 from "../assets/person6.png";
 
 export const navItems = [
   { label: "Features", href: "#" },
@@ -19,160 +12,41 @@ export const navItems = [
   { label: "Testimonials", href: "#" },
 ];
 
-export const testimonials = [
+export const TESTIMONIALS = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
-    image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    name: "Mila Midlej",
+    meses: "Um mês atrás",
+    image: person1,
+    feedback: "Excelente atendimento e preços justos! Pesquisei em vários lugares, mas, assim que conheci a loja, soube que era o lugar certo para consertar meu celular. Estou muito satisfeita e recomendo a todos!",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
-    image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    name: "Milena Espirito Santo",
+    meses: "Um mês atrás",
+    image: person2,
+    feedback: "Fiz a troca do vidro do meu ipad 9ª geração e fiquei muito satisfeita com o serviço e todo atendimento de Gal!! Recomendo e voltarei em breve!!",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
-    image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    name: "Wendel Barreto Marques",
+    meses: "Um mês atrás",
+    image: person3,
+    feedback: "Muito boa! Atendimento e serviço perfeito ! No tempo programado! Cada vez o atendimento melhora , simpatia e qualidade nota 1000 e pontualidade é muito boa na entrega dos aparelhos !",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
-    image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    name: "Alexandre Figueiredo Nt",
+    meses: "Um mês atrás",
+    image: person4,
+    feedback: "Atendimento excelente, serviço perfeito e indico muito! Fiz a troca da bateria do meu Samsung em 1 hora",
   },
   {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
-    image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    name: "Manuela Santanan",
+    meses: "4 meses",
+    image: person5,
+    feedback: " Atendimento excelente! Fiz a troca da bateria do iPhone 8 em 30 minutos, com preço justo! Muito rápido, atendimento incrível! Super recomendo!",
   },
   {
-    user: "Emily Davis",
-    company: "Synergy Systems",
-    image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    name: "Roseanne Barbosa",
+    meses: "5 meses atrás",
+    image: person6,
+    feedback: "Empresa super séria, qualificada e competente. Deixei meu MacBook para reparo e eles resolveram meu problema. O MacBook tinha sido condenado por outra empresa, eles conseguiram consertar e fiquei muito satisfeita. Super indico!",
   },
-];
-
-export const features = [
-  {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
-    description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
-  },
-  {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
-    description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
-  },
-  {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
-    description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
-  },
-  {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
-    description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
-  },
-  {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
-    description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
-  },
-  {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
-    description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
-  },
-];
-
-export const checklistItems = [
-  {
-    title: "Code merge made easy",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
-  },
-  {
-    title: "Review code without worry",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
-  },
-  {
-    title: "AI Assistance to reduce time",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
-  },
-  {
-    title: "Share work in minutes",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
-  },
-];
-
-export const pricingOptions = [
-  {
-    title: "Free",
-    price: "$0",
-    features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
-    ],
-  },
-  {
-    title: "Pro",
-    price: "$10",
-    features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
-    ],
-  },
-  {
-    title: "Enterprise",
-    price: "$200",
-    features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
-    ],
-  },
-];
-
-export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
-];
-
-export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
-];
-
-export const communityLinks = [
-  { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
 ];
