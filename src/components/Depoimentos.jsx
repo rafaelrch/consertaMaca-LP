@@ -45,7 +45,7 @@ const Depoimentos = () => {
                             className='w-12 h-12 rounden-full mr-4'
                             loading='lazy'/>
                         <div>
-                            <h2 className='text-lg font-semibold'>
+                            <h2 className='text-lg font-semibold text-start'>
                                 {testimonial.name}
                             </h2>
                             <p className='text-sm font-light text-start'>
