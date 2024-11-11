@@ -37,7 +37,7 @@ function quemSomos() {
                                 Nossos valores
                             </h3>
                             <p className='text-start text-sm text-neutral-500 font-light'>
-                            incluem transparência, acessibilidade e um atendimento <br />
+                            Incluem transparência, acessibilidade e um atendimento <br />
                             justo, com uma equipe dedicada que coloca a sua necessidade <br />
                             em primeiro lugar.
                             </p>
