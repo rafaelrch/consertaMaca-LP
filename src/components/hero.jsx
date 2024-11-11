@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function hero() {
   return (
@@ -12,7 +12,7 @@ function hero() {
         </h1>
         <p className='text-neutral-300 text-sm text-center font-light max-wxl4'>Não deixe uma tela quebrada ou um problema técnico atrapalhar seu dia. <br />
          Conte com nossa expertise para garantir que seu dispositivo Apple funcione perfeitamente.</p>
-        <a href="#" className=' bg-gradient-to-r from-purple-500 to-purple-700 border  border-[#b55fff] px-4 py-2 rounded-lg text-white hover:scale-105  hover:shadow-[0px_0px_20px_rgba(181,_95,_255,_0.8)] duration-500'>
+        <a  href="https://wa.me/557199992503" target="_blank" className=' bg-gradient-to-r from-purple-500 to-purple-700 border  border-[#b55fff] px-4 py-2 rounded-lg text-white hover:scale-105  hover:shadow-[0px_0px_20px_rgba(181,_95,_255,_0.8)] duration-500'>
         Agende seu Conserto Agora!
         </a>
     </div>

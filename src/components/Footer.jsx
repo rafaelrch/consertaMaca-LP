@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaInstagram } from 'react-icons/fa';
 
 
 function Footer() {
@@ -13,9 +14,9 @@ function Footer() {
                 Loja 23 Térreo - Stiep, Salvador  BA <br />
                  41770-395</p>
             </div>
-            <div className=' flex justify-center items-center p-2 bg-purple-600 hover:bg-blue-500 rounded-lg hover:scale-105 duration-200 w-12 mt-3'>
-                <a href="https://instagram.com/conserta.macas" target="_blank" rel="noopener noreferrer" class="text-white">
-                
+            <div className=' flex justify-center items-center p-3 bg-purple-600 hover:bg-blue-500 rounded-lg hover:scale-105 duration-200 '>
+                <a href="https://instagram.com/conserta.macas" target="_blank" rel="noopener noreferrer" className="text-white text-xl">
+                <FaInstagram />
                 </a>
             </div>  
     

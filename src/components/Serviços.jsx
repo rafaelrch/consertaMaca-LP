@@ -62,7 +62,7 @@ function Serviços() {
               </div>
           </div>
       </div>
-      <a href="#" className='font-light w-4/5 sm:w-2/5 lg:w-1/3 text-xs sm:text-sm md:text-md lg:text-base bg-gradient-to-r from-purple-500 to-purple-700 border border-[#b55fff] px-4 py-2 rounded-xl text-white hover:scale-105  hover:shadow-[0px_0px_20px_rgba(181,_95,_255,_0.8)] duration-500'>
+      <a  href="https://wa.me/557199992503" target="_blank" className='font-light w-4/5 sm:w-2/5 lg:w-1/3 text-xs sm:text-sm md:text-md lg:text-base bg-gradient-to-r from-purple-500 to-purple-700 border border-[#b55fff] px-4 py-2 rounded-xl text-white hover:scale-105  hover:shadow-[0px_0px_20px_rgba(181,_95,_255,_0.8)] duration-500'>
         Ver Detalhes dos Serviços
       </a>
     </div>
