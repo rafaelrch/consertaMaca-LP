@@ -6,10 +6,10 @@ import person5 from "../assets/person5.png";
 import person6 from "../assets/person6.png";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Home", href: "home" },
+  { label: "Quem somos", href: "quemSomos" },
+  { label: "Serviços", href: "servicos" },
+  { label: "Depoimentos", href: "depoimentos" },
 ];
 
 export const TESTIMONIALS = [

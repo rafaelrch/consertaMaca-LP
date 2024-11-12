@@ -2,9 +2,12 @@ import React from 'react'
 import Fachada from '../assets/FACHADA.png'
 import { Target } from 'lucide-react';
 import { Sparkles } from 'lucide-react';
+import { Element } from "react-scroll";
 
 function quemSomos() {
   return (
+    <Element name="quemSomos">
+
     <div className="flex flex-wrap flex-col px-5 py-16 justify-center items-center bg-white">
         <span className="flex justify-center bg-gradient-to-r from-purple-300 to-purple-500 border  border-[#b55fff] text-neutral-100 rounded-xl text-sm font-medium px-4 py-2 uppercase shadow-lg">
           Quem Somos
@@ -49,6 +52,7 @@ function quemSomos() {
             <img className='w-full sm:w-1/2 lg:w-1/5 mr-0 md:mr-9 lg:mr-16 hover:shadow-lg duration-500 ' src={Fachada} alt=""  style={{ borderRadius: "35px" }} /> 
         </div>    
     </div>
+    </Element>
   )
 }
 
