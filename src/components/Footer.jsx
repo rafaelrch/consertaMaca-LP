@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaInstagram } from 'react-icons/fa';
+import imgOkto from "../assets/okto-branco.png"
 
 
 function Footer() {
@@ -13,6 +14,12 @@ function Footer() {
                 <p class="text-sm font-extralight mt-2">Empresarial Tancredo Neves, <br /> R. Edístio Pondé, 353 <br />
                 Loja 23 Térreo - Stiep, Salvador  BA <br />
                  41770-395</p>
+                <div className='mt-6'>
+                  <p className='textwhite font-semibold'>Criado por</p>
+                  <a href="https://oktoagencia.com.br/" target='_blank'>
+                    <img src={imgOkto} alt="" className='w-32'/>
+                  </a>
+                </div>
             </div>
             <div className=' flex justify-center items-center p-3 bg-purple-600 hover:bg-blue-500 rounded-lg hover:scale-105 duration-200 '>
                 <a href="https://instagram.com/conserta.macas" target="_blank" rel="noopener noreferrer" className="text-white text-xl">
