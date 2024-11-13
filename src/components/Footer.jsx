@@ -14,7 +14,7 @@ function Footer() {
                 <p class="text-sm font-extralight mt-2">Empresarial Tancredo Neves, <br /> R. Edístio Pondé, 353 <br />
                 Loja 23 Térreo - Stiep, Salvador  BA <br />
                  41770-395</p>
-                <div className='mt-6'>
+                <div className='mt-6 flex flex-col items-center sm:items-start md:items-center lg:items-start'>
                   <p className='textwhite font-semibold'>Criado por</p>
                   <a href="https://oktoagencia.com.br/" target='_blank'>
                     <img src={imgOkto} alt="" className='w-32'/>
