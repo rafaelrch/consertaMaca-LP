@@ -13,7 +13,9 @@ function quemSomos() {
           Quem Somos
         </span>
             <p className='text-center mt-5 font-light text-sm text-neutral-500'>
-                A Conserta Maçãs é uma empresa especializada <br />em assistência técnica para dispositivos Apple.
+            A Conserta Maçãs é uma empresa especializada <br />
+            com mais de 10 anos de experiência no mercado.
+
             </p>
         <div className='flex flex-wrap items-center justify-center gap-20 pt-16'>
             <div className="flex flex-coljustify-start">
