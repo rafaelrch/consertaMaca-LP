@@ -21,7 +21,7 @@ function Serviços() {
                 <Star size={50}/>
                 <h2 className="py-4 text-lg sm:text-3xl lg:text-2xl font-semibold">Equipe qualificada</h2>
                 <p className='text-neutral-500 font-light text-sm'>Profissionais capacitados com mais <br />
-                de 20 anos de experiência na área.</p>
+                de 10 anos de experiência na área.</p>
                 
               </div>
           </div>
