@@ -51,7 +51,7 @@ function quemSomos() {
                     </div>
                 </div>              
             </div>
-            <img className='w-full sm:w-1/2 lg:w-1/5 mr-0 md:mr-9 lg:mr-16 hover:shadow-lg duration-500 ' src={Fachada} alt=""  style={{ borderRadius: "35px" }} /> 
+ 
         </div>    
     </div>
     </Element>
