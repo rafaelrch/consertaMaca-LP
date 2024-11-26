@@ -23,7 +23,7 @@ export const TESTIMONIALS = [
     name: "Milena Espirito Santo",
     meses: "Um mês atrás",
     image: person2,
-    feedback: "Fiz a troca do vidro do meu ipad 9ª geração e fiquei muito satisfeita com o serviço e todo atendimento de Gal!! Recomendo e voltarei em breve!!",
+    feedback: "Fiz a troca do vidro do meu tablet 9ª geração e fiquei muito satisfeita com o serviço e todo atendimento de Gal!! Recomendo e voltarei em breve!!",
   },
   {
     name: "Wendel Barreto Marques",
@@ -35,18 +35,18 @@ export const TESTIMONIALS = [
     name: "Alexandre Figueiredo Nt",
     meses: "Um mês atrás",
     image: person4,
-    feedback: "Atendimento excelente, serviço perfeito e indico muito! Fiz a troca da bateria do meu Samsung em 1 hora",
+    feedback: "Atendimento excelente, serviço perfeito e indico muito! Fiz a troca da bateria do meu celular em 1 hora!",
   },
   {
     name: "Manuela Santanan",
     meses: "4 meses",
     image: person5,
-    feedback: " Atendimento excelente! Fiz a troca da bateria do iPhone 8 em 30 minutos, com preço justo! Muito rápido, atendimento incrível! Super recomendo!",
+    feedback: " Atendimento excelente! Fiz a troca da bateria do meu celular em 30 minutos, com preço justo! Muito rápido, atendimento incrível! Super recomendo!",
   },
   {
     name: "Roseanne Barbosa",
     meses: "5 meses atrás",
     image: person6,
-    feedback: "Empresa super séria, qualificada e competente. Deixei meu MacBook para reparo e eles resolveram meu problema. O MacBook tinha sido condenado por outra empresa, eles conseguiram consertar e fiquei muito satisfeita. Super indico!",
+    feedback: "Empresa super séria, qualificada e competente. Deixei meu MacBook para reparo e eles resolveram meu problema. O Notebook tinha sido condenado por outra empresa, eles conseguiram consertar e fiquei muito satisfeita. Super indico!",
   },
 ];

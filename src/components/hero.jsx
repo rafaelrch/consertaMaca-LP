@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Element } from "react-scroll";
 import video1 from '../assets/video1.mp4';
 import video3 from '../assets/video3.mp4';
+import bg from "../assets/bg.jpg"
 
 function Hero() {
   const [currentVideo, setCurrentVideo] = useState(0);
@@ -18,7 +19,8 @@ function Hero() {
     <Element name="home">
       {/* Container do vídeo de fundo */}
       <div className="relative w-full h-screen overflow-hidden">
-        {/* Video em background */}
+        <img src={bg} alt="" className="absolute inset-0 w-full h-full object-cover"/>
+        {/* Video em background 
         <video
           src={videos[currentVideo]}
           autoPlay
@@ -27,7 +29,7 @@ function Hero() {
           playsInline
           onEnded={handleVideoEnd} // Chamado quando o vídeo termina
           className="absolute inset-0 w-full h-full object-cover"
-        />
+        />*/}
 
         {/* Conteúdo em cima do vídeo */}
         <div className="relative flex flex-col items-center justify-center h-full space-y-6 px-5 bg-[linear-gradient(to_bottom,rgba(255,255,255,0.4),rgba(90,106,183,0.3),rgba(13,19,71,0.5)_78%)]">
