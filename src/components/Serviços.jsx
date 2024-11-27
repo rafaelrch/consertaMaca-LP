@@ -17,16 +17,15 @@ function Serviços() {
       </p>
       <div className="flex flex-wrap justify-center items-center mx-5 space-x-1 py-16">
           <div className="w-full sm:w-1/2 lg:w-1/5 p-2 ">
-              <div className=" p-10 w-full h-full flex flex-col justify-center items-center border border-neutral-300 hover:border-blue-600 hover:scale-105 hover:shadow-[0px_20px_20px_rgba(0,0,0,_0.1)] duration-200 rounded-xl">
+              <div className=" p-10 w-full h-80 flex flex-col justify-center items-center border border-neutral-300 hover:border-blue-600 hover:scale-105 hover:shadow-[0px_20px_20px_rgba(0,0,0,_0.1)] duration-200 rounded-xl">
                 <Star size={50}/>
                 <h2 className="py-4 text-lg sm:text-3xl lg:text-2xl font-semibold">Equipe qualificada</h2>
-                <p className='text-neutral-500 font-light text-sm'>Profissionais capacitados com mais <br />
-                de 10 anos de experiência na área.</p>
+                <p className='text-neutral-500 font-light text-sm'>Comprometidos em compreender e atender às suas necessidades com rapidez e eficiência, sempre disponíveis para oferecer suporte e orientações especializadas</p>
                 
               </div>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/5 p-2">
-              <div className="p-10 w-full h-full flex flex-col justify-center items-center border border-neutral-300 hover:border-blue-600 hover:scale-105 hover:shadow-[0px_20px_20px_rgba(0,0,0,_0.1)] duration-200 rounded-xl">
+              <div className="p-10 w-full h-80 flex flex-col justify-center items-center border border-neutral-300 hover:border-blue-600 hover:scale-105 hover:shadow-[0px_20px_20px_rgba(0,0,0,_0.1)] duration-200 rounded-xl">
                 <ThumbsUp size={50}/>
                 <h2 className="py-4 text-lg sm:text-3xl lg:text-2xl font-semibold">Serviço bem avaliado</h2>
                 <p className='text-neutral-500 font-light text-sm'>
@@ -35,20 +34,20 @@ function Serviços() {
               </div>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/5 p-2">
-              <div className="p-10 w-full h-full flex flex-col justify-center items-center border border-neutral-300 hover:border-blue-600 hover:scale-105 hover:shadow-[0px_20px_20px_rgba(0,0,0,_0.1)] duration-200 rounded-xl">
+              <div className="p-10 w-full h-80 flex flex-col justify-center items-center border border-neutral-300 hover:border-blue-600 hover:scale-105 hover:shadow-[0px_20px_20px_rgba(0,0,0,_0.1)] duration-200 rounded-xl">
                 <Handshake size={50}/>
-                <h2 className="py-4 text-lg sm:text-3xl lg:text-2xl font-semibold">Valores </h2>
+                <h2 className="py-4 text-lg sm:text-3xl lg:text-2xl font-semibold">Atendimento</h2>
                 <p className='text-neutral-500 font-light text-sm'>
-                  Somos uma empresa de tecnologia com diferencial de tratamento 100% humanizado.
+                Sabemos o quanto seu dispositivo é importante no seu dia a dia, por isso, proporcionamos um atendimento ao cliente de alto nível
                 </p>
               </div>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/5 p-2">
-              <div className="p-10 w-full h-full flex flex-col justify-center items-center border border-neutral-300 hover:border-blue-600 hover:scale-105 hover:shadow-[0px_20px_20px_rgba(0,0,0,_0.1)] duration-200 rounded-xl">
+              <div className="p-10 w-full h-80 flex flex-col justify-center items-center border border-neutral-300 hover:border-blue-600 hover:scale-105 hover:shadow-[0px_20px_20px_rgba(0,0,0,_0.1)] duration-200 rounded-xl">
                 <Wrench size={50}/>
-                <h2 className="py-4 text-lg sm:text-3xl lg:text-2xl font-semibold">Inovação Tecnológica </h2>
+                <h2 className="py-4 text-lg sm:text-3xl lg:text-2xl font-semibold">Qualidade tecnológica </h2>
                 <p className='text-neutral-500 font-light text-sm'>
-                  Disponibilizamos o que há de mais atual em inovação e tecnologia.
+                Valorizamos a qualidade, utilizando peças de excelência para garantir a máxima durabilidade e desempenho do seu aparelho.
                 </p>
               </div>
           </div>
