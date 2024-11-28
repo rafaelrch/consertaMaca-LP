@@ -13,7 +13,7 @@ function Serviços() {
       Nosso diferencial
       </span>
       <p className='text-center mt-5 font-light text-sm text-neutral-500'>
-      Oferecemos consertos com garantia de qualidade.
+      Oferecemos reparos com garantia de qualidade.
       </p>
       <div className="flex flex-wrap justify-center items-center mx-5 space-x-1 py-16">
           <div className="w-full sm:w-1/2 lg:w-1/5 p-2 ">
