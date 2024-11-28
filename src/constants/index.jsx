@@ -7,9 +7,7 @@ import person6 from "../assets/person6.png";
 
 export const navItems = [
   { label: "Home", href: "home" },
-  { label: "Quem somos", href: "quemSomos" },
-  { label: "Serviços", href: "servicos" },
-  { label: "Depoimentos", href: "depoimentos" },
+  { label: "Nosso Diferencial", href: "nossoDiferencial" },
 ];
 
 export const TESTIMONIALS = [

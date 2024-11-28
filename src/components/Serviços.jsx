@@ -8,7 +8,7 @@ function Serviços() {
   return (
     
 
-    <div id="servicos" className="py-16 text-center flex flex-wrap flex-col justify-center items-center bg-neutral-100">
+    <div id="nossoDiferencial" className="py-16 text-center flex flex-wrap flex-col justify-center items-center bg-neutral-100">
       <span className="flex justify-center bg-gradient-to-r from-purple-300 to-purple-500 border  border-[#b55fff] text-neutral-100 rounded-xl text-sm font-medium px-4 py-2 uppercase shadow-lg">
       Nosso diferencial
       </span>
