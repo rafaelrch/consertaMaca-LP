@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Element } from "react-scroll";
 import video1 from '../assets/video1.mp4';
 import video3 from '../assets/video3.mp4';
-import bg from "../assets/bg.jpg"
+
 
 function Hero() {
   const [currentVideo, setCurrentVideo] = useState(0);

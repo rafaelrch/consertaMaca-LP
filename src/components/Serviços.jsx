@@ -24,7 +24,7 @@ function Serviços() {
                 
               </div>
           </div>
-          <div className="w-full sm:w-1/2 lg:w-1/5 p-2">
+          {/* <div className="w-full sm:w-1/2 lg:w-1/5 p-2">
               <div className="p-10 w-full h-80 flex flex-col justify-center items-center border border-neutral-300 hover:border-blue-600 hover:scale-105 hover:shadow-[0px_20px_20px_rgba(0,0,0,_0.1)] duration-200 rounded-xl">
                 <ThumbsUp size={50}/>
                 <h2 className="py-4 text-lg sm:text-3xl lg:text-2xl font-semibold">Serviço bem avaliado</h2>
@@ -32,7 +32,7 @@ function Serviços() {
                   Comentários positivos no Google, focamos na real necessidade do cliente.
                 </p>
               </div>
-          </div>
+          </div>*/}
           <div className="w-full sm:w-1/2 lg:w-1/5 p-2">
               <div className="p-10 w-full h-80 flex flex-col justify-center items-center border border-neutral-300 hover:border-blue-600 hover:scale-105 hover:shadow-[0px_20px_20px_rgba(0,0,0,_0.1)] duration-200 rounded-xl">
                 <Handshake size={50}/>
