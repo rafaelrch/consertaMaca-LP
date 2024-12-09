@@ -17,9 +17,9 @@ function Orçamento() {
           <h2 className='text-neutral-300 text-2xl sm:text-4xl sm:text-5xl text-center font-light max-w-xl'>
           SOLICITE AGORA MESMO PELO WHATSAPP
           </h2>
-          <h3 className='text-neutral-300 text-xl sm:text-2xl sm:text-3xl text-center font-light max-w-xl'>(71) 9999-2503</h3>
+          <h3 className='text-neutral-300 text-xl sm:text-2xl sm:text-3xl text-center font-light max-w-xl'>71 3034-0503</h3>
           <a
-            href="https://wa.me/557199992503"
+            href="https://wa.me/557130340503"
             target="_blank"
             rel="noopener noreferrer"
             className='bg-gradient-to-r from-purple-500 to-purple-700 border border-[#b55fff] px-4 py-2 rounded-lg text-white hover:scale-105 hover:shadow-[0px_0px_20px_rgba(181,_95,_255,_0.8)] duration-500'
