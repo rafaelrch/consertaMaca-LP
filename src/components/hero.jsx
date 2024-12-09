@@ -43,7 +43,7 @@ function Hero() {
           Profissionais qualificados assegurando máxima durabilidade e performance do seu dispositivo com agilidade.
           </p>
           <a
-            href="https://wa.me/557199992503"
+            href="https://wa.me/557130340503"
             target="_blank"
             rel="noopener noreferrer"
             className='bg-gradient-to-r from-purple-500 to-purple-700 border border-[#b55fff] px-4 py-2 rounded-lg text-white hover:scale-105 hover:shadow-[0px_0px_20px_rgba(181,_95,_255,_0.8)] duration-500'
